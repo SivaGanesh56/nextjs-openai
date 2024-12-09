@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
-import a from "./a";
+// import a from "./a";
 
-console.log(a);
+// console.log(a);
 
 const Page = async () => {
   const response = await fetch("https://jsonplaceholder.typicode.com/todos/");
@@ -14,7 +14,7 @@ const Page = async () => {
         if (user.id === 4) {
           return (
             <div key={user.id} className="flex flex-col border border-gray-500">
-              <p>{user.id}</p>
+              <p>{user.ifo.k}</p>
             </div>
           );
         }
